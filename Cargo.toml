@@ -1,0 +1,10 @@
+[package]
+name = "esi"
+description = "A Rust ESI library built for Verum Corporate Logistics"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = { version = "0.4.38", features = ["serde"] }
+reqwest = "0.12.8"
+serde = { version = "1.0.197", features = ["derive"] }
